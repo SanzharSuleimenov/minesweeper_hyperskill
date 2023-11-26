@@ -1,1207 +1,644 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="MinesweeperTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2023-11-17T13:30:19" hostname="DESKTOP-I94B8AB" time="1.019">
+<testsuite name="MinesweeperTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2023-11-26T12:39:51" hostname="DESKTOP-I94B8AB" time="0.44">
   <properties/>
-  <testcase name="start" classname="MinesweeperTest" time="1.019"/>
+  <testcase name="start" classname="MinesweeperTest" time="0.44"/>
   <system-out><![CDATA[?[1;31m
 Start test 1?[0m
 How many mines do you want on the field? > 1
-.........
-.........
-..111....
-..1X1....
-..111....
-.........
-.........
-.........
-.........
+ |123456789|
+-|---------|
+1|.1.1.....|
+2|.111.....|
+3|.........|
+4|.........|
+5|.........|
+6|.........|
+7|.........|
+8|.........|
+9|.........|
+-|---------|
+Set/delete mines marks (x and y coordinates): > 1 2
+ |123456789|
+-|---------|
+1|.1.1.....|
+2|*111.....|
+3|.........|
+4|.........|
+5|.........|
+6|.........|
+7|.........|
+8|.........|
+9|.........|
+-|---------|
+Set/delete mines marks (x and y coordinates): > 1 2
+ |123456789|
+-|---------|
+1|.1.1.....|
+2|.111.....|
+3|.........|
+4|.........|
+5|.........|
+6|.........|
+7|.........|
+8|.........|
+9|.........|
+-|---------|
+Set/delete mines marks (x and y coordinates): > 3 1
+Congratulations! You found all mines!
 ?[1;31m
 Start test 2?[0m
 How many mines do you want on the field? > 1
-.....111.
-.....1X1.
-.....111.
-.........
-.........
-.........
-.........
-.........
-.........
+ |123456789|
+-|---------|
+1|.........|
+2|...111...|
+3|...1.1...|
+4|...111...|
+5|.........|
+6|.........|
+7|.........|
+8|.........|
+9|.........|
+-|---------|
+Set/delete mines marks (x and y coordinates): > 1 2
+ |123456789|
+-|---------|
+1|.........|
+2|*..111...|
+3|...1.1...|
+4|...111...|
+5|.........|
+6|.........|
+7|.........|
+8|.........|
+9|.........|
+-|---------|
+Set/delete mines marks (x and y coordinates): > 1 2
+ |123456789|
+-|---------|
+1|.........|
+2|...111...|
+3|...1.1...|
+4|...111...|
+5|.........|
+6|.........|
+7|.........|
+8|.........|
+9|.........|
+-|---------|
+Set/delete mines marks (x and y coordinates): > 5 3
+Congratulations! You found all mines!
 ?[1;31m
 Start test 3?[0m
-How many mines do you want on the field? > 2
-.......1X
-.......11
-.........
-.....111.
-.....1X1.
-.....111.
-.........
-.........
-.........
+How many mines do you want on the field? > 1
+ |123456789|
+-|---------|
+1|.........|
+2|.........|
+3|.........|
+4|.........|
+5|.........|
+6|.111.....|
+7|.1.1.....|
+8|.111.....|
+9|.........|
+-|---------|
+Set/delete mines marks (x and y coordinates): > 1 2
+ |123456789|
+-|---------|
+1|.........|
+2|*........|
+3|.........|
+4|.........|
+5|.........|
+6|.111.....|
+7|.1.1.....|
+8|.111.....|
+9|.........|
+-|---------|
+Set/delete mines marks (x and y coordinates): > 1 2
+ |123456789|
+-|---------|
+1|.........|
+2|.........|
+3|.........|
+4|.........|
+5|.........|
+6|.111.....|
+7|.1.1.....|
+8|.111.....|
+9|.........|
+-|---------|
+Set/delete mines marks (x and y coordinates): > 3 7
+Congratulations! You found all mines!
 ?[1;31m
 Start test 4?[0m
-How many mines do you want on the field? > 2
-.....1X1.
-.....111.
-.........
-.........
-.........
-.111.....
-.1X1.....
-.111.....
-.........
+How many mines do you want on the field? > 1
+ |123456789|
+-|---------|
+1|.........|
+2|.........|
+3|.........|
+4|.........|
+5|111......|
+6|1.1......|
+7|111......|
+8|.........|
+9|.........|
+-|---------|
+Set/delete mines marks (x and y coordinates): > 1 2
+ |123456789|
+-|---------|
+1|.........|
+2|*........|
+3|.........|
+4|.........|
+5|111......|
+6|1.1......|
+7|111......|
+8|.........|
+9|.........|
+-|---------|
+Set/delete mines marks (x and y coordinates): > 1 2
+ |123456789|
+-|---------|
+1|.........|
+2|.........|
+3|.........|
+4|.........|
+5|111......|
+6|1.1......|
+7|111......|
+8|.........|
+9|.........|
+-|---------|
+Set/delete mines marks (x and y coordinates): > 2 6
+Congratulations! You found all mines!
 ?[1;31m
 Start test 5?[0m
-How many mines do you want on the field? > 3
-.........
-.........
-.....111.
-..1111X1.
-..1X1111.
-..11211..
-....1X1..
-....111..
-.........
+How many mines do you want on the field? > 1
+ |123456789|
+-|---------|
+1|.........|
+2|.........|
+3|.........|
+4|.........|
+5|.........|
+6|11.......|
+7|.1.......|
+8|11.......|
+9|.........|
+-|---------|
+Set/delete mines marks (x and y coordinates): > 1 2
+ |123456789|
+-|---------|
+1|.........|
+2|*........|
+3|.........|
+4|.........|
+5|.........|
+6|11.......|
+7|.1.......|
+8|11.......|
+9|.........|
+-|---------|
+Set/delete mines marks (x and y coordinates): > 1 2
+ |123456789|
+-|---------|
+1|.........|
+2|.........|
+3|.........|
+4|.........|
+5|.........|
+6|11.......|
+7|.1.......|
+8|11.......|
+9|.........|
+-|---------|
+Set/delete mines marks (x and y coordinates): > 1 7
+Congratulations! You found all mines!
 ?[1;31m
 Start test 6?[0m
-How many mines do you want on the field? > 3
-...112X1.
-...1X211.
-...111...
-.........
-....111..
-....1X1..
-....111..
-.........
-.........
+How many mines do you want on the field? > 1
+ |123456789|
+-|---------|
+1|.........|
+2|.........|
+3|.........|
+4|..111....|
+5|..1.1....|
+6|..111....|
+7|.........|
+8|.........|
+9|.........|
+-|---------|
+Set/delete mines marks (x and y coordinates): > 1 2
+ |123456789|
+-|---------|
+1|.........|
+2|*........|
+3|.........|
+4|..111....|
+5|..1.1....|
+6|..111....|
+7|.........|
+8|.........|
+9|.........|
+-|---------|
+Set/delete mines marks (x and y coordinates): > 1 2
+ |123456789|
+-|---------|
+1|.........|
+2|.........|
+3|.........|
+4|..111....|
+5|..1.1....|
+6|..111....|
+7|.........|
+8|.........|
+9|.........|
+-|---------|
+Set/delete mines marks (x and y coordinates): > 4 5
+Congratulations! You found all mines!
 ?[1;31m
 Start test 7?[0m
-How many mines do you want on the field? > 4
-....1X1..
-....1221.
-.....1X1.
-.....111.
-...111.11
-...1X1.1X
-...111.11
-.........
-.........
+How many mines do you want on the field? > 1
+ |123456789|
+-|---------|
+1|.........|
+2|.........|
+3|.........|
+4|.........|
+5|.........|
+6|..111....|
+7|..1.1....|
+8|..111....|
+9|.........|
+-|---------|
+Set/delete mines marks (x and y coordinates): > 1 2
+ |123456789|
+-|---------|
+1|.........|
+2|*........|
+3|.........|
+4|.........|
+5|.........|
+6|..111....|
+7|..1.1....|
+8|..111....|
+9|.........|
+-|---------|
+Set/delete mines marks (x and y coordinates): > 1 2
+ |123456789|
+-|---------|
+1|.........|
+2|.........|
+3|.........|
+4|.........|
+5|.........|
+6|..111....|
+7|..1.1....|
+8|..111....|
+9|.........|
+-|---------|
+Set/delete mines marks (x and y coordinates): > 4 7
+Congratulations! You found all mines!
 ?[1;31m
 Start test 8?[0m
-How many mines do you want on the field? > 4
-....1X1..
-....11211
-......1X1
-......111
-.111.....
-.1X1.....
-.111111..
-....1X1..
-....111..
+How many mines do you want on the field? > 1
+ |123456789|
+-|---------|
+1|.........|
+2|.........|
+3|.........|
+4|.........|
+5|.........|
+6|.........|
+7|111......|
+8|1.1......|
+9|111......|
+-|---------|
+Set/delete mines marks (x and y coordinates): > 1 2
+ |123456789|
+-|---------|
+1|.........|
+2|*........|
+3|.........|
+4|.........|
+5|.........|
+6|.........|
+7|111......|
+8|1.1......|
+9|111......|
+-|---------|
+Set/delete mines marks (x and y coordinates): > 1 2
+ |123456789|
+-|---------|
+1|.........|
+2|.........|
+3|.........|
+4|.........|
+5|.........|
+6|.........|
+7|111......|
+8|1.1......|
+9|111......|
+-|---------|
+Set/delete mines marks (x and y coordinates): > 2 8
+Congratulations! You found all mines!
 ?[1;31m
 Start test 9?[0m
-How many mines do you want on the field? > 5
-.11211...
-.1X3X2...
-.113X2...
-...111...
-.....111.
-.....1X21
-.....112X
-.......11
-.........
+How many mines do you want on the field? > 1
+ |123456789|
+-|---------|
+1|....111..|
+2|....1.1..|
+3|....111..|
+4|.........|
+5|.........|
+6|.........|
+7|.........|
+8|.........|
+9|.........|
+-|---------|
+Set/delete mines marks (x and y coordinates): > 1 2
+ |123456789|
+-|---------|
+1|....111..|
+2|*...1.1..|
+3|....111..|
+4|.........|
+5|.........|
+6|.........|
+7|.........|
+8|.........|
+9|.........|
+-|---------|
+Set/delete mines marks (x and y coordinates): > 1 2
+ |123456789|
+-|---------|
+1|....111..|
+2|....1.1..|
+3|....111..|
+4|.........|
+5|.........|
+6|.........|
+7|.........|
+8|.........|
+9|.........|
+-|---------|
+Set/delete mines marks (x and y coordinates): > 6 2
+Congratulations! You found all mines!
 ?[1;31m
 Start test 10?[0m
-How many mines do you want on the field? > 5
-..111..1X
-..1X1..11
-..222....
-..1X1....
-..111....
-.........
-......122
-......1XX
-......122
+How many mines do you want on the field? > 1
+ |123456789|
+-|---------|
+1|.........|
+2|.........|
+3|.........|
+4|.........|
+5|.........|
+6|.........|
+7|.........|
+8|.....111.|
+9|.....1.1.|
+-|---------|
+Set/delete mines marks (x and y coordinates): > 1 2
+ |123456789|
+-|---------|
+1|.........|
+2|*........|
+3|.........|
+4|.........|
+5|.........|
+6|.........|
+7|.........|
+8|.....111.|
+9|.....1.1.|
+-|---------|
+Set/delete mines marks (x and y coordinates): > 1 2
+ |123456789|
+-|---------|
+1|.........|
+2|.........|
+3|.........|
+4|.........|
+5|.........|
+6|.........|
+7|.........|
+8|.....111.|
+9|.....1.1.|
+-|---------|
+Set/delete mines marks (x and y coordinates): > 7 9
+Congratulations! You found all mines!
 ?[1;31m
 Start test 11?[0m
-How many mines do you want on the field? > 6
-..111....
-..1X1..11
-..111..1X
-.......11
-11.......
-X1.......
-11.111...
-.112X1111
-.1X2111X1
+How many mines do you want on the field? > 5
+ |123456789|
+-|---------|
+1|...112.1.|
+2|...1.211.|
+3|...111...|
+4|...111111|
+5|...1.11.1|
+6|...111111|
+7|.........|
+8|111......|
+9|1.1......|
+-|---------|
+Set/delete mines marks (x and y coordinates): > 5 2
+ |123456789|
+-|---------|
+1|...112.1.|
+2|...1*211.|
+3|...111...|
+4|...111111|
+5|...1.11.1|
+6|...111111|
+7|.........|
+8|111......|
+9|1.1......|
+-|---------|
+Set/delete mines marks (x and y coordinates): > 8 5
+ |123456789|
+-|---------|
+1|...112.1.|
+2|...1*211.|
+3|...111...|
+4|...111111|
+5|...1.11*1|
+6|...111111|
+7|.........|
+8|111......|
+9|1.1......|
+-|---------|
+Set/delete mines marks (x and y coordinates): > 5 5
+ |123456789|
+-|---------|
+1|...112.1.|
+2|...1*211.|
+3|...111...|
+4|...111111|
+5|...1*11*1|
+6|...111111|
+7|.........|
+8|111......|
+9|1.1......|
+-|---------|
+Set/delete mines marks (x and y coordinates): > 2 9
+ |123456789|
+-|---------|
+1|...112.1.|
+2|...1*211.|
+3|...111...|
+4|...111111|
+5|...1*11*1|
+6|...111111|
+7|.........|
+8|111......|
+9|1*1......|
+-|---------|
+Set/delete mines marks (x and y coordinates): > 7 1
+Congratulations! You found all mines!
 ?[1;31m
 Start test 12?[0m
-How many mines do you want on the field? > 6
-1X1......
-111......
-111......
-1X1..111.
-222112X1.
-1X11X211.
-222111...
-1X1......
-111......
+How many mines do you want on the field? > 5
+ |123456789|
+-|---------|
+1|.111.....|
+2|.2.2.....|
+3|.2.2.111.|
+4|.111.1.1.|
+5|.....111.|
+6|.........|
+7|......111|
+8|11....1.1|
+9|.1....111|
+-|---------|
+Set/delete mines marks (x and y coordinates): > 8 8
+ |123456789|
+-|---------|
+1|.111.....|
+2|.2.2.....|
+3|.2.2.111.|
+4|.111.1.1.|
+5|.....111.|
+6|.........|
+7|......111|
+8|11....1*1|
+9|.1....111|
+-|---------|
+Set/delete mines marks (x and y coordinates): > 7 4
+ |123456789|
+-|---------|
+1|.111.....|
+2|.2.2.....|
+3|.2.2.111.|
+4|.111.1*1.|
+5|.....111.|
+6|.........|
+7|......111|
+8|11....1*1|
+9|.1....111|
+-|---------|
+Set/delete mines marks (x and y coordinates): > 3 2
+ |123456789|
+-|---------|
+1|.111.....|
+2|.2*2.....|
+3|.2.2.111.|
+4|.111.1*1.|
+5|.....111.|
+6|.........|
+7|......111|
+8|11....1*1|
+9|.1....111|
+-|---------|
+Set/delete mines marks (x and y coordinates): > 3 3
+ |123456789|
+-|---------|
+1|.111.....|
+2|.2*2.....|
+3|.2*2.111.|
+4|.111.1*1.|
+5|.....111.|
+6|.........|
+7|......111|
+8|11....1*1|
+9|.1....111|
+-|---------|
+Set/delete mines marks (x and y coordinates): > 1 9
+Congratulations! You found all mines!
 ?[1;31m
 Start test 13?[0m
-How many mines do you want on the field? > 7
-..1X1....
-..111..11
-.111..12X
-12X1..1X2
-X211..111
-11...111.
-.....1X1.
-11...111.
-X1.......
-?[1;31m
-Start test 14?[0m
-How many mines do you want on the field? > 7
-..111....
-..1X211..
-..112X1..
-..1121111
-.12X1113X
-.1X211X3X
-.111.1121
-.........
-.........
-?[1;31m
-Start test 15?[0m
-How many mines do you want on the field? > 8
-11.......
-X1....111
-11.1111X1
-...1X1111
-...222...
-11.1X1...
-X1.122111
-11..1X22X
-....112X2
-?[1;31m
-Start test 16?[0m
-How many mines do you want on the field? > 8
-.......1X
-11.....11
-X1.......
-11111....
-.12X1....
-.1X21.111
-.122212X1
-..1X2X322
-..11212X1
-?[1;31m
-Start test 17?[0m
-How many mines do you want on the field? > 9
-1211.....
-X2X1.111.
-2311.1X21
-X1...12X1
-11....111
-...111...
-...1X1111
-...1122X2
-.....1X3X
-?[1;31m
-Start test 18?[0m
-How many mines do you want on the field? > 9
-..1X1....
-..222....
-112X1....
-1X3321...
-12X3X1...
-.12X21...
-.1221.111
-12X1..1X1
-1X21..111
-?[1;31m
-Start test 19?[0m
-How many mines do you want on the field? > 10
-111..111.
-1X1..1X21
-221..12X1
-X1....122
-11...112X
-.....2X42
-...113X3X
-..12X2121
-..1X21...
-?[1;31m
-Start test 20?[0m
-How many mines do you want on the field? > 10
-.12X223X1
-.1X33XX21
-.12X2332.
-..1111X1.
-.....111.
-.........
-.....1221
-....12XX1
-....1X321
-?[1;31m
-Start test 21?[0m
-How many mines do you want on the field? > 11
-X1...1X1.
-22...1121
-X1111..1X
-111X1..22
-11111..1X
-X211.1121
-12X112X21
-.1111X22X
-....11111
-?[1;31m
-Start test 22?[0m
-How many mines do you want on the field? > 11
-X2..11111
-X3..1X11X
-X2..11111
-1211.....
-.1X21111.
-.12X11X1.
-11212221.
-2X1.1X1..
-X21.111..
-?[1;31m
-Start test 23?[0m
-How many mines do you want on the field? > 12
-X11X1.2X3
-1222213XX
-12X11X222
-2X31111..
-2X2....11
-111..112X
-.....1X21
-..111111.
-..1X1....
-?[1;31m
-Start test 24?[0m
-How many mines do you want on the field? > 12
-1X21.111.
-12X1.1X1.
-1221.111.
-2X1...111
-X21...1X1
-11....122
-....1112X
-11.12X13X
-X1.1X212X
-?[1;31m
-Start test 25?[0m
-How many mines do you want on the field? > 13
-....2X21X
-..113X211
-122X33221
-X2X3X2X2X
-122322121
-112X1111.
-1X2111X21
-111..112X
-.......11
-?[1;31m
-Start test 26?[0m
-How many mines do you want on the field? > 13
-111......
-1X1......
-2321.111.
-X3X312X1.
-14X5X4321
-.2X5XX3X2
-.12X324X3
-..111.2X2
-......111
-?[1;31m
-Start test 27?[0m
-How many mines do you want on the field? > 14
-12321....
-1XXX1....
-12321....
-.11211111
-.1X3X32X1
-.113X3X21
-111224331
-1X12X4XX1
-1112X4X31
-?[1;31m
-Start test 28?[0m
-How many mines do you want on the field? > 14
-.112X2221
-12X212XX1
-X32212221
-2X22X1...
-123X21.11
-12X22111X
-X2111X222
-22..112X1
-X1....111
-?[1;31m
-Start test 29?[0m
-How many mines do you want on the field? > 15
-...1X3X21
-..123X3X1
-..2X31211
-223X2.111
-XX211.1X1
-221.12321
-11..2XX2.
-X21.2XX2.
-2X1.1221.
-?[1;31m
-Start test 30?[0m
-How many mines do you want on the field? > 15
-X11X3X211
-11113X32X
-...1333X2
-..12XX322
-..1X333X1
-..1112X31
-..1123X2.
-..2X3X21.
-..2X311..
-?[1;31m
-Start test 31?[0m
-How many mines do you want on the field? > 16
-...1X1...
-121211.11
-X3X11222X
-X4222XX21
-23X12X421
-X311234X1
-X2..2XX21
-11113X31.
-..1X211..
-?[1;31m
-Start test 32?[0m
-How many mines do you want on the field? > 16
-11.....1X
-X32112221
-2XX11XX21
-2321234X1
-X1.12X211
-2222X21..
-2X3X21.11
-2X421..2X
-12X1...2X
-?[1;31m
-Start test 33?[0m
-How many mines do you want on the field? > 17
-.111.2X4X
-12X1.2XX2
-X211.1232
-11.111.1X
-11.1X1133
-X2.1111XX
-X2..1235X
-12111XX3X
-.1X112221
-?[1;31m
-Start test 34?[0m
-How many mines do you want on the field? > 17
-.2X5X3X2X
-13XXX5232
-2X34XX11X
-X32233111
-2X11X1...
-111111...
-.........
-221....11
-XX1....1X
-?[1;31m
-Start test 35?[0m
-How many mines do you want on the field? > 18
-1X1...111
-332...2X2
-XX211.2X2
-233X21111
-12X4X31..
-2X34XX31.
-X4X23XX1.
-X32222321
-111X1.1X1
-?[1;31m
-Start test 36?[0m
-How many mines do you want on the field? > 18
-XX22X2X21
-23X2122X1
-1211.1221
-X1...1X1.
-11...2331
-.....2XX2
-112112XX2
-1X3X23442
-12X22XX2X
-?[1;31m
-Start test 37?[0m
-How many mines do you want on the field? > 19
-X21..12X1
-3X1..1X32
-X2111212X
-22.1X1122
-X211112X2
-4X21123X2
-XX32X2X32
-X32X223X2
-11111.2X2
-?[1;31m
-Start test 38?[0m
-How many mines do you want on the field? > 19
-.1XX1111.
-.12211X1.
-.....111.
-11111..11
-X11X1112X
-234332X21
-2XXX3X531
-3X645XXX1
-2XX2XX421
-?[1;31m
-Start test 39?[0m
-How many mines do you want on the field? > 20
-....1X1..
-11.133311
-X1.1XX3X1
-331134X32
-XX112X33X
-3432X45X3
-2XX32XXX2
-X4X213431
-1211.1X1.
-?[1;31m
-Start test 40?[0m
-How many mines do you want on the field? > 20
-.12X1.1X1
-.1X21.122
-.111.113X
-221112X3X
-XX22X2232
-23X3212X2
-123X213X3
-1X33X24X4
-12X22X3XX
-?[1;31m
-Start test 41?[0m
-How many mines do you want on the field? > 21
-1223XX2X1
-X3XX32333
-X333212XX
-222X11X32
-2X334321.
-X32XXX2..
-X2235X322
-111X212XX
-..111.122
-?[1;31m
-Start test 42?[0m
-How many mines do you want on the field? > 21
-1X2XXX2..
-22346X2..
-X22XX32..
-2X334X211
-223X424X2
-X23X4X3X2
-12X4X3211
-.113X3221
-...112XX1
-?[1;31m
-Start test 43?[0m
-How many mines do you want on the field? > 22
-X311.1XX2
-X3X1.13X3
-13331.23X
-12XX212X3
-X23X21X3X
-111123442
-..112XXX2
-222X225X3
-XX211.2X2
-?[1;31m
-Start test 44?[0m
-How many mines do you want on the field? > 22
-X3X222111
-2X22XX11X
-221123332
-X1...1XX1
-331.13542
-XX2.1XXX2
-4X322333X
-X4X4X2.11
-X32XX2...
-?[1;31m
-Start test 45?[0m
-How many mines do you want on the field? > 23
-XX1...1X1
-442...222
-XX22111X1
-34X3X3321
-1X3X4XX1.
-23434X431
-1XX5X4X2X
-24XXX4231
-1X3322X1.
-?[1;31m
-Start test 46?[0m
-How many mines do you want on the field? > 23
-.111...11
-.1X22222X
-233X3XX21
-XX33X431.
-X32X4X211
-2234X43X1
-1X3XX4X42
-34X323X4X
-XX21.12X2
-?[1;31m
-Start test 47?[0m
-How many mines do you want on the field? > 24
-XX1.2X3X1
-331.2X433
-X1..112XX
-231211133
-X4X4X212X
-3XX5X31X2
-X534X2122
-X3X44311X
-122XXX111
-?[1;31m
-Start test 48?[0m
-How many mines do you want on the field? > 24
-1X2X11121
-223233X3X
-1X34XX3X2
-12XXX3222
-12332213X
-2X2113X5X
-2X33X5X4X
-123XXX221
-.1X4X31..
-?[1;31m
-Start test 49?[0m
-How many mines do you want on the field? > 25
-XX21...1X
-34X332122
-X34XXX21X
-24XXXX222
-3XXX5223X
-XX6X2.1XX
-23X21.122
-1221...11
-1X1....1X
-?[1;31m
-Start test 50?[0m
-How many mines do you want on the field? > 25
-XX2X3XXX2
-3333X5XX3
-X11X24X5X
-221112X42
-X4221223X
-XXX3X11X3
-344X2112X
-1X211.122
-111...1X1
-?[1;31m
-Start test 51?[0m
-How many mines do you want on the field? > 26
-1X11X2111
-23234X32X
-X3X3XX4X3
-35X324X5X
-XX32.2X5X
-34X21224X
-1X23X21X3
-1113X533X
-...2XXX21
-?[1;31m
-Start test 52?[0m
-How many mines do you want on the field? > 26
-XX2X22X3X
-X544X33X3
-2XX3X22X2
-122211111
-112121211
-1X3X3X4X2
-125X53XX2
-12XX5X432
-1X4XX22X1
-?[1;31m
-Start test 53?[0m
-How many mines do you want on the field? > 27
-X11111XXX
-111X22454
-12433X2XX
-2XXX31222
-4X7X4211.
-XX4XX4X42
-23333XXXX
-12X233443
-X22X2X11X
-?[1;31m
-Start test 54?[0m
-How many mines do you want on the field? > 27
-1233XXX3X
-3XXX46X52
-XX44X4X3X
-3312X4332
-X2244X2X1
-12XXX2322
-1234332X1
-2X11X3X32
-X2112X3X1
-?[1;31m
-Start test 55?[0m
-How many mines do you want on the field? > 28
-.1XXX4321
-.124XXXX3
-.1235XXXX
-.1XX5XX42
-124X5X52.
-1X335XX2.
-113XX6X41
-..3XX4XX1
-..2X32221
-?[1;31m
-Start test 56?[0m
-How many mines do you want on the field? > 28
-23322233X
-XXXX3XXX3
-24545X8X3
-12XX4XXX3
-1X34X56X3
-1234X3XX3
-.2XX324X4
-.2XX2.2XX
-.1221.122
-?[1;31m
-Start test 57?[0m
-How many mines do you want on the field? > 29
-XXX2.1121
-XXX311X2X
-3X4X11132
-23432124X
-X2XX22XXX
-12333X35X
-124X3223X
-2XXX33X31
-X4X4X3X2.
-?[1;31m
-Start test 58?[0m
-How many mines do you want on the field? > 29
-X2223X21X
-12XX3X322
-1244544X2
-2X5XXXX4X
-3XXX44X31
-3X532332.
-X3X22XX31
-244X35XX1
-1XX3X3X31
-?[1;31m
-Start test 59?[0m
-How many mines do you want on the field? > 30
-X113X3XX3
-122XX33XX
-.2X53224X
-25X5X23X3
-XXXX4X4X3
-24XX313X3
-.2343223X
-.1X2XX34X
-.1123X3XX
-?[1;31m
-Start test 60?[0m
-How many mines do you want on the field? > 30
-3X21X11X1
-XX3223332
-XX21X3XX1
-22124X543
-1111XX4XX
-2X225X43X
-4X42XX332
-XX4X44X3X
-XX312X23X
-?[1;31m
-Start test 61?[0m
-How many mines do you want on the field? > 31
-X33X1..2X
-3XX44324X
-X34XXXX4X
-224X8XX63
-1X3XXXXXX
-1234X4343
-12X32213X
-X433X11XX
-2XX211122
-?[1;31m
-Start test 62?[0m
-How many mines do you want on the field? > 31
-....2X32X
-11..3XX21
-X2234X421
-35XXX54X1
-XXXXXXX43
-X6444X4XX
-X4X22223X
-2X34X4232
-12X3XXX2X
-?[1;31m
-Start test 63?[0m
-How many mines do you want on the field? > 32
-2XX4XX421
-X34XXXXX1
-333XX5421
-XX445X2..
-4XX3XX2..
-3X4X5531.
-X433XXX21
-XX23X544X
-23X212XX2
-?[1;31m
-Start test 64?[0m
-How many mines do you want on the field? > 32
-2X22X2111
-X54X3X11X
-XXX332232
-XX4X23X4X
-3333X6X7X
-1X23XXXXX
-24X32456X
-X4X213XX2
-2X211XX31
-?[1;31m
-Start test 65?[0m
-How many mines do you want on the field? > 33
-X4XX3X321
-X5X45XX3X
-2X45XXX52
-12XXXXXX2
-.124444X3
-.124X223X
-.1XXX32X3
-122444X5X
-X1.1XX3XX
-?[1;31m
-Start test 66?[0m
-How many mines do you want on the field? > 33
-.1111XXXX
-.2X2246XX
-14X53XX43
-X4XXX423X
-24X5X324X
-2X322X2XX
-3X5333332
-2XXXX5X31
-13X5XXXX1
-?[1;31m
-Start test 67?[0m
-How many mines do you want on the field? > 34
-3XXX1.1XX
-XXX311232
-XX3223X21
-X632XX45X
-XXX235XXX
-35432XX6X
-X2XX55X42
-124XXX32X
-..2X5X211
-?[1;31m
-Start test 68?[0m
-How many mines do you want on the field? > 34
-233X212X3
-XXX5X22XX
-455XX4243
-XX4XX4X3X
-35X6X425X
-X4X5X33XX
-24X33X5XX
-2X323XX42
-X22X23X2.
-?[1;31m
-Start test 69?[0m
-How many mines do you want on the field? > 35
-XXXX311..
-24XX3X332
-244433XXX
-XXX4X445X
-X76XXX4X2
-XXXXXXX31
-X45X7XX31
-222X4X4X1
-X11121211
-?[1;31m
-Start test 70?[0m
-How many mines do you want on the field? > 35
-2X12X2.2X
-X223X324X
-332X33XX3
-XX333X33X
-X7X3X3343
-XXX524XXX
-35X4X5XX4
-1X46X6XX3
-12XXX4XX2
-?[1;31m
-Start test 71?[0m
-How many mines do you want on the field? > 36
-X4X4X223X
-3XXX44XX3
-X443XX34X
-4X444423X
-XXXXX3X32
-X5556X44X
-3X3XXX5XX
-2X44X4XXX
-12X212232
-?[1;31m
-Start test 72?[0m
-How many mines do you want on the field? > 36
-X2XX2.1X2
-345X4234X
-XX4XX3XX3
-4X45X656X
-X6X6XXXXX
-XXXXX5XX3
-X54422332
-12X2233X2
-.112XXX3X
-?[1;31m
-Start test 73?[0m
-How many mines do you want on the field? > 37
-X22X22XXX
-X34X44X74
-23XX5XXXX
-3X5X5XXX4
-XX53X445X
-XX4X22X3X
-46X312231
-XXX2.2X42
-3X31.2XXX
-?[1;31m
-Start test 74?[0m
-How many mines do you want on the field? > 37
-12X212X31
-1X3X12X4X
-22333225X
-X44XX32XX
-XXXXX4X32
-5X7XX4342
-XX7X54XXX
-XXXX5XX64
-2333XX4XX
-?[1;31m
-Start test 75?[0m
-How many mines do you want on the field? > 38
-1X3X43332
-334XXXXXX
-XX4344XXX
-3X3X34442
-1123XXX31
-1113XXXX2
-2X12X7XX3
-X4335XXX4
-XX2XXXXXX
-?[1;31m
-Start test 76?[0m
-How many mines do you want on the field? > 38
-X4XX434X2
-X5XXXXXX3
-25XX755X3
-2XXXXX22X
-2XXX54232
-24X4X3X3X
-2X4334X42
-3X5X4X5X2
-2X4XX3XX2
-?[1;31m
-Start test 77?[0m
-How many mines do you want on the field? > 39
-13X4XX32X
-X5X7XXX42
-X6XXX7XX2
-X6XXX5X5X
-X5XX4X34X
-3X64434X2
-2XXX3XX21
-12445X542
-..1XX3XXX
-?[1;31m
-Start test 78?[0m
-How many mines do you want on the field? > 39
-12X211.1X
-2X45X4232
-X6XXXXX2X
-XXXX65442
-X66XX3XX1
-X4XX45X41
-3X543XX52
-X6XX44XXX
-XXXXX224X
-?[1;31m
-Start test 79?[0m
-How many mines do you want on the field? > 40
-XX3XXX5X3
-X45X6XXXX
-24XX43XX3
-2XXX44431
-X5X4XXX31
-3X4435XX2
-X4XX45XX2
-24XXXXX42
-1X4X433X1
-?[1;31m
-Start test 80?[0m
-How many mines do you want on the field? > 40
-XXXX4321.
-35XXXXX32
-2X6X765XX
-X3XXXXX43
-345X643X2
-XX4XX224X
-XX5334X5X
-XXX22XXX3
-24X22XX4X
-?[1;31m
-Start test 81?[0m
-How many mines do you want on the field? > 41
-XX5XX3XXX
-4XXX44X6X
-3XXX23X52
-4X6313XX2
-XXX323X5X
-X55XX33X3
-35XX4X23X
-XXX53224X
-X5XX11X3X
-?[1;31m
-Start test 82?[0m
-How many mines do you want on the field? > 41
-X3XX23X3X
-4X643XX42
-XXXX544X1
-XX8XXX222
-5XXX4333X
-XXX543XX4
-344XXX5XX
-3X44XX45X
-XXX2222XX
-?[1;31m
-Start test 83?[0m
-How many mines do you want on the field? > 42
-XXXX34X31
-47X6XXX5X
-XXXX444XX
-XXX65X44X
-X7XXXX3X3
-XX6X5345X
-XX4X32XXX
-3322X45X3
-X1.12XX21
-?[1;31m
-Start test 84?[0m
-How many mines do you want on the field? > 42
-.1XXX3X3X
-123X6X55X
-X124XXXX2
-332XX8X52
-XX35XXX5X
-X5X5X7X6X
-2X3XX7XX3
-2345XXX7X
-1XX3X5XXX
-?[1;31m
-Start test 85?[0m
-How many mines do you want on the field? > 43
-.2X21XX4X
-.3X5344XX
-14XXX4X6X
-3XX43XX6X
-XX6334XX3
-XXXX3X54X
-X6X55XX32
-X65XX555X
-XXXX4XXXX
-?[1;31m
-Start test 86?[0m
-How many mines do you want on the field? > 43
-XX313XX4X
-XX5X4XX5X
-XXX5X544X
-3X6XXX4X4
-24XX7X5XX
-2XXX5X333
-X6X5X422X
-XX34XX24X
-3X22X4X3X
-?[1;31m
-Start test 87?[0m
-How many mines do you want on the field? > 44
-XX3X3X34X
-X45X54XXX
-4X5XX4XXX
-XX6X55XX4
-XXX5XX34X
-X6XX5434X
-13X6XX4XX
-.12XX7XXX
-..13XXX42
-?[1;31m
-Start test 88?[0m
-How many mines do you want on the field? > 44
-X4X4X4X3X
-3XXX3XX63
-3X6545XXX
-X5XXX4X7X
-X6XX6X5XX
-XX54XXX6X
-4X4X4XX6X
-2X3245X6X
-1111XX3XX
-?[1;31m
-Start test 89?[0m
-How many mines do you want on the field? > 45
-XXX3X12XX
-5X6X444XX
-XXX4XXX54
-3X4X565XX
-2333XXX53
-X4X45XX5X
-3XXX5X6XX
-4X65XXX6X
-XXX3X5X4X
-?[1;31m
-Start test 90?[0m
-How many mines do you want on the field? > 45
-2X4X4XXX3
-X6XX5XXXX
-XXX43XX7X
-XXX3345XX
-4X5X3XX7X
-X6X44XXXX
-XXX5X4332
-5X5XX3121
-XX3222X2X
-?[1;31m
-Start test 91?[0m
-How many mines do you want on the field? > 46
-XXX5X33X3
-3XXXX4XXX
-24XX66XXX
-X23XXXXXX
-3323X66XX
-XX224XX43
-X64X5X42X
-XXX5XX432
-3XXX4XX2X
-?[1;31m
-Start test 92?[0m
-How many mines do you want on the field? > 46
-XX4X312XX
-XX6XX33XX
-5XX6X5X7X
-XXXX6XXXX
-5X6XXX654
-XX44XX4XX
-X33X7X532
-344XXXX31
-XXX334XX1
-?[1;31m
-Start test 93?[0m
-How many mines do you want on the field? > 47
-XX3X3XXX2
-4X64X57X4
-4XXX5XXXX
-XX54XX8X4
-344X5XXX4
-3XX56XXXX
-XXXXXXX7X
-25XX54X6X
-.2XX212XX
-?[1;31m
-Start test 94?[0m
-How many mines do you want on the field? > 47
-3XX4XX4X2
-XXXX5XX6X
-XXX4X6XXX
-35432XXXX
-3XX335XX5
-XXX4XX6XX
-47X435XX3
-XXX43XX63
-233XX4XXX
-?[1;31m
-Start test 95?[0m
-How many mines do you want on the field? > 48
-XXXXX21XX
-4XXXX546X
-3X7XXXXXX
-4X6X6455X
-XX7X6X5X3
-XXXXXXXX3
-36X66X75X
-1XX5XXXX4
-13XX334XX
-?[1;31m
-Start test 96?[0m
-How many mines do you want on the field? > 48
-XXXX3X3XX
-4XX56X43X
-X55XXX333
-X6XX533XX
-XXX55X543
-X66XXXXX3
-4XXX7X6XX
-XX65XX56X
-XXX3X4XXX
-?[1;31m
-Start test 97?[0m
-How many mines do you want on the field? > 49
-2XXX34XX1
-X654XXX53
-XXX56X7XX
-XXXXXXXXX
-355X7X8X5
-X4X5XXXXX
-4XXX4XX64
-XXX5345XX
-3XX3X2XX3
-?[1;31m
-Start test 98?[0m
-How many mines do you want on the field? > 49
-X12XXX3X3
-235XX66XX
-2XXXXXXXX
-X5XX8XX64
-3X5XXX5XX
-X35XX6X64
-35XXX4XXX
-XXXX6445X
-3XXXXX2X2
-?[1;31m
-Start test 99?[0m
-How many mines do you want on the field? > 50
-X43XXXXX2
-XXX6656X3
-X7XXXX4X4
-X6XX634XX
-XX7XX44XX
-XXXXXXX7X
-XX66XXXXX
-XXX4XX432
-XX33X31..
-?[1;31m
-Start test 100?[0m
-How many mines do you want on the field? > 50
-2X213XXX2
-3X32XXXX4
-4X54XX6XX
-XXXX66X64
-XXXXXXXXX
-4XXXX6XX4
-3XXX55X5X
-3XXXX5X63
-X34X4XXXX
+How many mines do you want on the field? > 5
+ |123456789|
+-|---------|
+1|.111.....|
+2|12.1.....|
+3|.211.....|
+4|11.......|
+5|111......|
+6|1.1.11211|
+7|111.1.2.1|
+8|....11211|
+9|.........|
+-|---------|
+Set/delete mines marks (x and y coordinates): > 3 2
+ |123456789|
+-|---------|
+1|.111.....|
+2|12*1.....|
+3|.211.....|
+4|11.......|
+5|111......|
+6|1.1.11211|
+7|111.1.2.1|
+8|....11211|
+9|.........|
+-|---------|
+Set/delete mines marks (x and y coordinates): > 8 7
+ |123456789|
+-|---------|
+1|.111.....|
+2|12*1.....|
+3|.211.....|
+4|11.......|
+5|111......|
+6|1.1.11211|
+7|111.1.2*1|
+8|....11211|
+9|.........|
+-|---------|
+Set/delete mines marks (x and y coordinates): > 2 6
+ |123456789|
+-|---------|
+1|.111.....|
+2|12*1.....|
+3|.211.....|
+4|11.......|
+5|111......|
+6|1*1.11211|
+7|111.1.2*1|
+8|....11211|
+9|.........|
+-|---------|
+Set/delete mines marks (x and y coordinates): > 6 7
+ |123456789|
+-|---------|
+1|.111.....|
+2|12*1.....|
+3|.211.....|
+4|11.......|
+5|111......|
+6|1*1.11211|
+7|111.1*2*1|
+8|....11211|
+9|.........|
+-|---------|
+Set/delete mines marks (x and y coordinates): > 1 3
+Congratulations! You found all mines!
 ]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

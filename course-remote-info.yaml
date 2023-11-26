@@ -3,7 +3,7 @@ hyperskill_project:
   ide_files: https://cogniterra.org/media/attachments/lesson/24444/additional_files.json
   is_template_based: false
   use_ide: true
-update_date: "Fri, 17 Nov 2023 09:51:32 UTC"
+update_date: "Sun, 26 Nov 2023 10:30:11 UTC"
 stages:
   - id: 426
     step: 7200
@@ -16,14 +16,14 @@ stages:
     is_completed: true
   - id: 429
     step: 7203
-    is_completed: false
+    is_completed: true
   - id: 430
     step: 7204
     is_completed: false
 topics:
   0:
     - title: Introduction to Java
-      theory_id: 3500
+      theory_id: 38627
     - title: "Basic literals: numbers, strings and characters"
       theory_id: 3522
     - title: Writing first program
@@ -112,6 +112,8 @@ topics:
       theory_id: 20084
     - title: Data structures
       theory_id: 16927
+    - title: Immutability
+      theory_id: 7929
     - title: Pseudocode
       theory_id: 15090
     - title: Pseudocode basics
@@ -120,8 +122,6 @@ topics:
       theory_id: 20922
     - title: Fixed-size array
       theory_id: 20078
-    - title: Immutability
-      theory_id: 7929
     - title: Dynamic array
       theory_id: 5357
     - title: Arrays as parameters
@@ -190,12 +190,12 @@ topics:
       theory_id: 6692
     - title: Referencing subclass objects
       theory_id: 3585
-    - title: Object class
-      theory_id: 3596
     - title: Multiple constructors
       theory_id: 3538
     - title: Keyword "super"
       theory_id: 3588
+    - title: Object class
+      theory_id: 3596
     - title: Adding annotations
       theory_id: 3622
     - title: Method overriding

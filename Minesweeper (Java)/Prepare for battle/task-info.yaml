@@ -653,6 +653,12 @@ files:
         }
       }
     learner_created: true
+  - name: src/minesweeper/Stage4.java
+    visible: true
+    learner_created: true
 feedback_link: https://hyperskill.org/learn/step/7203#comment
-status: Unchecked
+status: Solved
+feedback:
+  message: Congratulations!
+  time: "Sun, 26 Nov 2023 12:39:51 UTC"
 record: -1
